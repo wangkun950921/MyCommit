@@ -33,6 +33,7 @@
             this.picture_Shouye = new System.Windows.Forms.PictureBox();
             this.btn_denglu = new System.Windows.Forms.Button();
             this.btn_Tuichu = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picture_Shouye)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,11 +79,21 @@
             this.btn_Tuichu.UseVisualStyleBackColor = true;
             this.btn_Tuichu.Click += new System.EventHandler(this.btn_Tuichu_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(368, 456);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 15);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "好好学习，天天向上";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(925, 522);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Tuichu);
             this.Controls.Add(this.btn_denglu);
             this.Controls.Add(this.picture_Shouye);
@@ -93,6 +104,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picture_Shouye)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -102,6 +114,7 @@
         private System.Windows.Forms.PictureBox picture_Shouye;
         private System.Windows.Forms.Button btn_denglu;
         private System.Windows.Forms.Button btn_Tuichu;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -43,10 +43,10 @@
             // lab_Zhanghao
             // 
             this.lab_Zhanghao.AutoSize = true;
-            this.lab_Zhanghao.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_Zhanghao.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lab_Zhanghao.Location = new System.Drawing.Point(166, 95);
             this.lab_Zhanghao.Name = "lab_Zhanghao";
-            this.lab_Zhanghao.Size = new System.Drawing.Size(106, 19);
+            this.lab_Zhanghao.Size = new System.Drawing.Size(91, 15);
             this.lab_Zhanghao.TabIndex = 0;
             this.lab_Zhanghao.Text = "账    号：";
             this.lab_Zhanghao.Click += new System.EventHandler(this.lab_Zhanghao_Click);
@@ -68,10 +68,10 @@
             // lab_Mima
             // 
             this.lab_Mima.AutoSize = true;
-            this.lab_Mima.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_Mima.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lab_Mima.Location = new System.Drawing.Point(166, 145);
             this.lab_Mima.Name = "lab_Mima";
-            this.lab_Mima.Size = new System.Drawing.Size(106, 19);
+            this.lab_Mima.Size = new System.Drawing.Size(91, 15);
             this.lab_Mima.TabIndex = 2;
             this.lab_Mima.Text = "密    码：";
             // 
@@ -85,10 +85,10 @@
             // lab_Xuehao
             // 
             this.lab_Xuehao.AutoSize = true;
-            this.lab_Xuehao.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_Xuehao.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lab_Xuehao.Location = new System.Drawing.Point(166, 198);
             this.lab_Xuehao.Name = "lab_Xuehao";
-            this.lab_Xuehao.Size = new System.Drawing.Size(106, 19);
+            this.lab_Xuehao.Size = new System.Drawing.Size(91, 15);
             this.lab_Xuehao.TabIndex = 4;
             this.lab_Xuehao.Text = "学    号：";
             // 
