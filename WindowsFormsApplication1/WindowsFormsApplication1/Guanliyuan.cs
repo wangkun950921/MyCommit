@@ -23,6 +23,7 @@ namespace WindowsFormsApplication1
         public static string Updateauther = null;
         public static string Updatekind = null;
         public static string Updatebuff = null;
+        public static string well = null;
         public static int UpdateFlag = 1;
         public static string UsrName = null;
         public static string BorrowData = null;

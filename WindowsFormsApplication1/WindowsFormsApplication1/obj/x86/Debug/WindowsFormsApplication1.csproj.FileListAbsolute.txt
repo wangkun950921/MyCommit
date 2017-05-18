@@ -17,3 +17,5 @@ X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsAppli
 X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.huanShu.resources
 X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.UpdateBorrow.resources
 X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.MyUsr.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

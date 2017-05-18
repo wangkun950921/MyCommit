@@ -74,7 +74,7 @@ namespace WindowsFormsApplication1
                     //密码正确需要跳转页面到main
                     MessageBox.Show("success!");
                     this.Hide();
-
+                   
                     UsrZhanghao = txtbox_Zhanghao.Text.Trim().ToString();
                     UsrXuehao = txtbox_Xuehao.Text.Trim().ToString();
 
@@ -115,6 +115,7 @@ namespace WindowsFormsApplication1
         {
             txtbox_Xuehao.Visible = true;
             lab_Xuehao.Visible = true;
+            string a = null;
         }
 
         private void rbtn_Guanliyuan_CheckedChanged(object sender, EventArgs e)

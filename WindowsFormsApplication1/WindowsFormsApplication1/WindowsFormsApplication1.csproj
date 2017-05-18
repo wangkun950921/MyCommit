@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dbope.cs" />
     <Compile Include="Denglu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +130,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx" />
     <EmbeddedResource Include="Guanliyuan.resx">
       <DependentUpon>Guanliyuan.cs</DependentUpon>
     </EmbeddedResource>

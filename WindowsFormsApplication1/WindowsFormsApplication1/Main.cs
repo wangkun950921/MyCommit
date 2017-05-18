@@ -11,11 +11,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Main : Form
     {
-        Sousuo f_ss = null;
-        public static string UsrName = null;
-        public static string UsrMima = null;
-        public static string UsrZhanghao = null;
-        public static string UsrXuehao = null;
+       
         static Users usr;
 
         public Main()
@@ -31,14 +27,7 @@ namespace WindowsFormsApplication1
 
         private void btn_Sousuo_Click(object sender, EventArgs e)
         {
-            string zhanghao = Denglu.UsrZhanghao;
-            string xuehao = Denglu.UsrXuehao;
-
-            usr = new Users();
-            Opertion bean = new Opertion();
-            Boolean ok = bean.ReadUsr(zhanghao, xuehao, usr);
-
-            if (ok)
+          
             {
                 UsrZhanghao = usr.GetZhanghao();
                 UsrMima = usr.GetMima();
@@ -61,8 +50,7 @@ namespace WindowsFormsApplication1
          */
         private void btn_huanShu_Click(object sender, EventArgs e)
         {
-            huanShu f_fs = new huanShu();
-            f_fs.ShowDialog();
+           
         }
 
         private void btn_tuiChu_Click(object sender, EventArgs e)
@@ -82,9 +70,7 @@ namespace WindowsFormsApplication1
 
             if (ok)
             {
-                UsrZhanghao = usr.GetZhanghao();
-                UsrMima = usr.GetMima();
-                UsrName = usr.GetName();
+            
                 UsrXuehao = usr.GetXuehao();
             }
 
