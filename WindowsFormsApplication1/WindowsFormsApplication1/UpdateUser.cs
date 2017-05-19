@@ -13,11 +13,11 @@ namespace WindowsFormsApplication1
     {
         public UpdateUser()
         {
-          /*  Console.WriteLine("zhanghao =" + zhanghao + ";number = " + number);
-            txtbox_Zhanghao.Text = zhanghao;
-            txtbox_Mima.Text = mima;
-            txtbox_Name.Text = name;
-            txtbox_Xuehao.Text = number;*/
+            /*  Console.WriteLine("zhanghao =" + zhanghao + ";number = " + number);
+              txtbox_Zhanghao.Text = zhanghao;
+              txtbox_Mima.Text = mima;
+              txtbox_Name.Text = name;
+              txtbox_Xuehao.Text = number;*/
 
             InitializeComponent();
 
@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
 
         private void UpdateUser_Load(object sender, EventArgs e)
         {
-           // UpdateUser
+            // UpdateUser
 
             txtbox_Name.Text = Guanliyuan.Updatename;
             txtbox_Zhanghao.Text = Guanliyuan.Updatezhanghao;

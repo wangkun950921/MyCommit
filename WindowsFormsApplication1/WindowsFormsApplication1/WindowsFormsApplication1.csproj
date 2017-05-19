@@ -118,6 +118,7 @@
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Users.cs" />
+    <Compile Include="yonghu.cs" />
     <Compile Include="Zhuce.cs">
       <SubType>Form</SubType>
     </Compile>
