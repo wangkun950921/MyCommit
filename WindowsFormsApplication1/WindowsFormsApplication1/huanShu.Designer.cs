@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_return = new System.Windows.Forms.Button();
+            this.btn_Longdata = new System.Windows.Forms.Button();
+            this.btn_backBook = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,23 +44,70 @@
             this.dataGridView1.RowTemplate.Height = 27;
             this.dataGridView1.Size = new System.Drawing.Size(347, 402);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // btn_return
+            // 
+            this.btn_return.Location = new System.Drawing.Point(44, 306);
+            this.btn_return.Name = "btn_return";
+            this.btn_return.Size = new System.Drawing.Size(146, 64);
+            this.btn_return.TabIndex = 7;
+            this.btn_return.Text = "返回";
+            this.btn_return.UseVisualStyleBackColor = true;
+            // 
+            // btn_Longdata
+            // 
+            this.btn_Longdata.Location = new System.Drawing.Point(44, 193);
+            this.btn_Longdata.Name = "btn_Longdata";
+            this.btn_Longdata.Size = new System.Drawing.Size(146, 64);
+            this.btn_Longdata.TabIndex = 6;
+            this.btn_Longdata.Text = "重借（延长日期）";
+            this.btn_Longdata.UseVisualStyleBackColor = true;
+            // 
+            // btn_backBook
+            // 
+            this.btn_backBook.Location = new System.Drawing.Point(44, 81);
+            this.btn_backBook.Name = "btn_backBook";
+            this.btn_backBook.Size = new System.Drawing.Size(146, 64);
+            this.btn_backBook.TabIndex = 5;
+            this.btn_backBook.Text = "还书";
+            this.btn_backBook.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(331, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(154, 24);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "我的借书记录";
             // 
             // huanShu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(626, 466);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btn_return);
+            this.Controls.Add(this.btn_Longdata);
+            this.Controls.Add(this.btn_backBook);
             this.Controls.Add(this.dataGridView1);
             this.Name = "huanShu";
             this.Text = "huanShu";
             this.Load += new System.EventHandler(this.huanShu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btn_return;
+        private System.Windows.Forms.Button btn_Longdata;
+        private System.Windows.Forms.Button btn_backBook;
+        private System.Windows.Forms.Label label1;
     }
 }

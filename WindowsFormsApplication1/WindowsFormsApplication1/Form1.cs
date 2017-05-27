@@ -59,5 +59,22 @@ namespace WindowsFormsApplication1
             this.Hide();
             f_dl.Show();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                DialogResult r = MessageBox.Show("确定要退出程序?", "操作提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (r != DialogResult.OK)
+                {
+                    e.Cancel = true;
+                }
+                else
+                {
+                    MessageBox.Show("谢谢使用aaa图书管理系统！");
+                    Application.Exit();
+                }
+            }
+        }
     }
 }

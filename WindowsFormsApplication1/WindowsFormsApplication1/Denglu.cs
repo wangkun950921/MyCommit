@@ -48,61 +48,69 @@ namespace WindowsFormsApplication1
             //判定各种是否为空
             if(txtbox_Zhanghao.Text.Trim() == string.Empty)
             {
+                MessageBox.Show("账号不能为空！");
                 txtbox_Zhanghao.Focus();
             }
             if (txtbox_Mima.Text.Trim() == string.Empty)
             {
+                MessageBox.Show("密码不能为空！");
                 txtbox_Mima.Focus();
             }
 
-
-
-            string zhanghao = txtbox_Zhanghao.Text.Trim();
-            string mima = txtbox_Mima.Text.Trim();
-            Opertion bean = new Opertion();
-
-            if (rbtn_Yonghu.Checked)
+            else
             {
-                if (txtbox_Xuehao.Text.Trim() == string.Empty)
-                    txtbox_Xuehao.Focus();
+                string zhanghao = txtbox_Zhanghao.Text.Trim();
+                string mima = txtbox_Mima.Text.Trim();
+                Opertion bean = new Opertion();
 
-                string xuehao = txtbox_Xuehao.Text.Trim();
-                
-                Boolean ok = bean.pswCheck(zhanghao, mima, xuehao);
-                if (ok)
+
+
+                if (rbtn_Yonghu.Checked)
                 {
-                    //密码正确需要跳转页面到main
-                    MessageBox.Show("success!");
-                    this.Hide();
-                   
-                    UsrZhanghao = txtbox_Zhanghao.Text.Trim().ToString();
-                    UsrXuehao = txtbox_Xuehao.Text.Trim().ToString();
+                    if (txtbox_Xuehao.Text.Trim() == string.Empty)
+                    {
+                        MessageBox.Show("学号不能为空");
+                        txtbox_Xuehao.Focus();
+                    }
+                    else
+                    {
 
-                    /*  ShowTest f_s = new ShowTest();
-                      f_s.Show();*/
-                    f_m = new Main();
-                    f_m.Show();
+                        string xuehao = txtbox_Xuehao.Text.Trim();
 
+                        Boolean ok = bean.pswCheck(zhanghao, mima, xuehao);
+                        if (ok)
+                        {
+                            //密码正确需要跳转页面到main
+                            MessageBox.Show("success!");
+                            this.Hide();
+
+                            UsrZhanghao = txtbox_Zhanghao.Text.Trim().ToString();
+                            UsrXuehao = txtbox_Xuehao.Text.Trim().ToString();
+
+                            f_m = new Main();
+                            f_m.Show();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("mima Error!");
+                        }
+                    }
                 }
-                else
+                else if (rbtn_Guanliyuan.Checked)
                 {
-                    MessageBox.Show("mima Error!");
+                    Boolean glyLog = bean.gylLogin(zhanghao, mima);
+                    if (glyLog)
+                    {
+                        //密码正确需要跳转页面到main
+                        MessageBox.Show("success!");
+                        this.Hide();
+                        f_gly = new Guanliyuan();
+                        f_gly.Show();
+                    }
                 }
+
             }
-            else if (rbtn_Guanliyuan.Checked)
-            {
-                Boolean glyLog = bean.gylLogin(zhanghao, mima);
-                if (glyLog)
-                {
-                    //密码正确需要跳转页面到main
-                    MessageBox.Show("success!");
-                    this.Hide();
-                    f_gly = new Guanliyuan();
-                    f_gly.Show();
-                }
-            }
-
-
         }
 
         private void btn_Fanhui_Click(object sender, EventArgs e)
@@ -115,13 +123,17 @@ namespace WindowsFormsApplication1
         {
             txtbox_Xuehao.Visible = true;
             lab_Xuehao.Visible = true;
-            string a = null;
+          
         }
 
         private void rbtn_Guanliyuan_CheckedChanged(object sender, EventArgs e)
         {
             txtbox_Xuehao.Visible = false;
             lab_Xuehao.Visible = false;
+        }
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

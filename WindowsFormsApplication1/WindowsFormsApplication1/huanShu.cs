@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
 
         public huanShu()
         {
+            this.MaximizeBox = false;
             InitializeComponent();
         }
 
@@ -33,6 +34,26 @@ namespace WindowsFormsApplication1
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
             conn.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_backBook_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Longdata_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

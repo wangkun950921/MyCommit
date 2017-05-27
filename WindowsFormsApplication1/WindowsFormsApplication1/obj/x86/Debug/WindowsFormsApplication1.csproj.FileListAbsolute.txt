@@ -19,3 +19,19 @@ X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsAppli
 X:\Users\安爷大屁股\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.MyUsr.resources
 C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Denglu.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Guanliyuan.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.huanShu.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Main.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.MyUsr.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ShowTest.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Sousuo.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.UpdateBooks.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.UpdateBorrow.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.UpdateUser.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Zhuce.resources
+C:\Users\wjcdn\Documents\GitHub\MyCommit\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
