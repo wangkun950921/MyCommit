@@ -31,6 +31,12 @@ namespace WindowsFormsApplication1
             DataSet ds = new DataSet();
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+            dataGridView1.DataSource = ds.Tables[0];
+            dataGridView1.Columns[0].HeaderCell.Value = "书名";
+            dataGridView1.Columns[1].HeaderCell.Value = "书号";
+            dataGridView1.Columns[2].HeaderCell.Value = "状态";
+            dataGridView1.Columns[3].HeaderCell.Value = "类型";
+            dataGridView1.Columns[4].HeaderCell.Value = "作者";
             conn.Close();
         }
 
@@ -54,6 +60,11 @@ namespace WindowsFormsApplication1
             DataSet ds = new DataSet();
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+            dataGridView1.Columns[0].HeaderCell.Value = "书名";
+            dataGridView1.Columns[1].HeaderCell.Value = "书号";
+            dataGridView1.Columns[2].HeaderCell.Value = "状态";
+            dataGridView1.Columns[3].HeaderCell.Value = "类型";
+            dataGridView1.Columns[4].HeaderCell.Value = "作者";
             conn.Close();
         }
 
@@ -71,6 +82,11 @@ namespace WindowsFormsApplication1
             DataSet ds = new DataSet();
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+            dataGridView1.Columns[0].HeaderCell.Value = "书名";
+            dataGridView1.Columns[1].HeaderCell.Value = "书号";
+            dataGridView1.Columns[2].HeaderCell.Value = "状态";
+            dataGridView1.Columns[3].HeaderCell.Value = "类型";
+            dataGridView1.Columns[4].HeaderCell.Value = "作者";
             conn.Close();
         }
 
@@ -111,7 +127,10 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("success");
             else
                 MessageBox.Show("error");
+
         }
+        
+
 
         private void txtbox_sh_TextChanged(object sender, EventArgs e)
         {
@@ -132,6 +151,11 @@ namespace WindowsFormsApplication1
             DataSet ds = new DataSet();
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+            dataGridView1.Columns[0].HeaderCell.Value = "书名";
+            dataGridView1.Columns[1].HeaderCell.Value = "书号";
+            dataGridView1.Columns[2].HeaderCell.Value = "状态";
+            dataGridView1.Columns[3].HeaderCell.Value = "类型";
+            dataGridView1.Columns[4].HeaderCell.Value = "作者";
             conn.Close();
         }
 
@@ -139,6 +163,28 @@ namespace WindowsFormsApplication1
         {
            /* usrName = Main.UsrName;
             Console.WriteLine("usrName = " + usrName);*/
+        }
+
+        private void Sousuo_Load(object sender, EventArgs e)
+        {
+            /* usrName = Main.UsrName;
+             Console.WriteLine("usrName = " + usrName);*/
+        }
+
+        private void 返回ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Main.f_m.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
               txtbox_Mima.Text = mima;
               txtbox_Name.Text = name;
               txtbox_Xuehao.Text = number;*/
-
+            this.MaximizeBox = false;
             InitializeComponent();
 
         }
@@ -62,6 +62,10 @@ namespace WindowsFormsApplication1
         private void btn_Fanhui_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }
