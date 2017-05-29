@@ -13,6 +13,7 @@ namespace WindowsFormsApplication1
     {
         public UpdateBorrow()
         {
+            this.MaximizeBox = false;
             InitializeComponent();
         }
 
@@ -48,6 +49,11 @@ namespace WindowsFormsApplication1
             }
             else
                 MessageBox.Show("error");
+
+        }
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

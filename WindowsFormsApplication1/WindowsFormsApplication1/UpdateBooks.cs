@@ -13,6 +13,7 @@ namespace WindowsFormsApplication1
     {
         public UpdateBooks()
         {
+            this.MaximizeBox = false;
             InitializeComponent();
         }
 
@@ -104,6 +105,10 @@ namespace WindowsFormsApplication1
                     index = i;
             }
             cbbox_bkBuff.Text = cbbox_bkBuff.Items[index].ToString();
+        }
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }
